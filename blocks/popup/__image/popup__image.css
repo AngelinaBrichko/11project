@@ -1,0 +1,8 @@
+@import url(img__size.css);
+
+.popup__image {
+  width: auto;
+  min-height: auto;
+  background-color: transparent;
+  }
+  
