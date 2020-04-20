@@ -1,6 +1,6 @@
 
 # 11 проект с настройками Webpack
-*hhttps://angelinabrichko.github.io/11project/*
+*https://angelinabrichko.github.io/11project/*
 
 ## Версия
 *v2.0.0*
