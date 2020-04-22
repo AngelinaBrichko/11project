@@ -45,8 +45,6 @@ const input2 = popup.querySelector('[name="input2"]');
 
 const popupCreator = new Popup(document.querySelector('.popup'), popupData)
 
-
-
 // откртыие попапов
 userInfoButton.addEventListener('click', function () {
   popupCreator.changePopup(popupData.place)
@@ -76,8 +74,6 @@ popupClose.addEventListener('click', function () {
   popupCreator.close()
 })
 
-
-
 // валидация 
 
 const form = document.querySelector('.popup__form')
@@ -93,10 +89,8 @@ form.addEventListener('input', function () {
 
 })
 
-
 const userInfo = new UserInfo(input1, input2, api)
 userInfo.setUserInfo()
-
 
 document.querySelector('.popup__form').addEventListener('submit', function () {
   event.preventDefault()
@@ -108,10 +102,6 @@ document.querySelector('.popup__form').addEventListener('submit', function () {
   })
   }
 })
-
-// добавление исходных карточек с сервера 
-
-// + вызов метода лучше перенести в класс CardList 
 
 const cardList = new CardList(document.querySelector('.places-list'), api)
 cardList.render()
